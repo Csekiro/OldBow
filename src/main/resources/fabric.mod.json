@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "oldbow",
+  "version": "${version}",
+  "minecraft": ">=1.21.10 <=1.21.11",
+  "name": "OldBow",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/oldbow/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "fabric-datagen": [
+      "Csekiro.oldbow.client.OldbowDataGenerator"
+    ],
+    "main": [
+      "Csekiro.oldbow.Oldbow"
+    ]
+  },
+  "mixins": [
+    "oldbow.mixins.json",
+    {
+      "config": "oldbow.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
