@@ -9,7 +9,7 @@
   "contact": {},
   "license": "MIT",
   "icon": "assets/oldbow/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
       "Csekiro.oldbow.client.OldbowDataGenerator"
