@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew:*)",
+      "Bash(find:*)",
+      "Bash(unzip:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(cd \"D:\\mod_make\\OldBow\")",
+      "Bash(unzip -p \".gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-6227aad8ee/1.21.10-net.fabricmc.yarn.1_21_10.1.21.10+build.3-v2/minecraft-common-6227aad8ee-1.21.10-net.fabricmc.yarn.1_21_10.1.21.10+build.3-v2-sources.jar\" \"net/minecraft/entity/projectile/ProjectileEntity.java\")"
+    ],
+    "deny": []
+  }
+}
